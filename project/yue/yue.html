@@ -1,0 +1,49 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="save" content="history">
+<title>约</title>
+<link href="login.css" rel="stylesheet" type="text/css" >
+
+</head>
+
+<template name="page" id="page">
+
+{{#each message}}
+<div>{{Mail}}</div>
+{{/each}}
+
+<div id="apDiv111">
+  <form id="form1" name="form1" method="post" action="">
+    <label for="content"></label>
+    <textarea name="content" id="content" cols="75" rows="5"></textarea>
+  </form>
+  <div id="apDiv222"><a id="mess" href=""><img src="http://ww1.sinaimg.cn/mw690/00678T8Kgw1et3n9jk40vj302f0143yd.jpg" width="87" height="40" /></a></div>
+
+</div>
+<div id="apDiv333">
+ 
+  
+     {{#each client}}
+     <div class="gogo"><a style="float:right;" class="gogo" href="sendMail?mail={{Mail}}~{{data}}"><img  src="http://ww3.sinaimg.cn/mw690/00678T8Kgw1et3n9g82ctj302g013q2s.jpg" width="88" height="39" /></a></div>
+     <p>{{Mail}}</p>
+     <p>{{Content}}</p>
+     <p>{{Time}}</p>
+     <div style="padding-top:5px;padding-bottom:5px;">
+     <hr width=99% size=1 color=#707070 style="border:2 double black"> 
+     </div>
+     {{/each}}
+  
+</div>
+{{#each message}}
+<div id="apDiv666"><img src={{image}} width="110" height="139" />
+  <div id="apDiv777">
+    <form id="form3" name="form3" method="post" action="">
+      <strong>{{name}}</strong>
+    </form>
+  </div>
+  <div id="apDiv888">{{self}}</div>
+<div id="xiugaibt1"><a id="set" href=""><img src="http://ww3.sinaimg.cn/bmiddle/00678T8Kgw1et8gq3fx16j302j01cq2p.jpg" width="87" height="40"/></a></div>
+</div>
+{{/each}}
+<div id="apDiv999"><a id="per" href=""><strong><em>我的约信</em></strong></a></div>
+</template>

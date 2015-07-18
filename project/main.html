@@ -1,0 +1,49 @@
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="save" content="history">
+<title>约</title>
+<link href="login.css" rel="stylesheet" type="text/css" >
+
+</head>
+<body id="main">
+{{> container}}
+</body>
+
+<template name="container">
+  <div id="container" class="container">
+  
+    
+
+    {{#if currentUrl.reg}}
+      {{> reg}}
+      
+    {{/if}}
+    
+    {{#if currentUrl.login}}
+      {{> login}}
+      
+    {{/if}}
+    
+
+    {{#if currentUrl.page}}
+      {{> page}}
+    {{/if}}
+
+    {{#if currentUrl.sendMail}}
+      {{> sendMail}}
+    {{/if}}
+ 
+    {{#if currentUrl.setting}}
+      {{> setting}}
+    {{/if}}
+
+    {{#if currentUrl.personal}}
+      {{> personal}}
+    {{/if}}
+
+
+  </div>
+</template>
+
+

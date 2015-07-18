@@ -1,0 +1,104 @@
+/* CSS declarations go here */
+body {
+	background-image: url(http://ww4.sinaimg.cn/mw690/00678T8Kgw1et3n9l49loj31hc0u0ag0.jpg);
+	background-repeat: no-repeat;
+       /* background-repeat: repeat-y;*/
+	background-size:cover;
+        background-attachment:fixed;
+        filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";  
+        -moz-background-size:100% 100%;  
+        
+}
+
+
+#apDiv110 {
+	position: absolute;
+	left: 119px;
+	top: 114px;
+	width: 170px;
+	height: 21px;
+	z-index: 1;
+        filter:alpha(opacity=85); /*IE滤镜，透明度50%*/
+        -moz-opacity:0.75; /*Firefox私有，透明度50%*/
+        opacity:0.75;/*others*/
+}
+#apDiv112 {
+	position: absolute;
+	left: 120px;
+	top: 219px;
+	width: 170px;
+	height: 20px;
+	z-index: 2;
+        filter:alpha(opacity=85); /*IE滤镜，透明度50%*/
+        -moz-opacity:0.75; /*Firefox私有，透明度50%*/
+        opacity:0.75;/*others*/
+}
+#apDiv113 {
+	position: absolute;
+	left: 368px;
+	top: -12px;
+	width: 42px;
+	height: 39px;
+	z-index: 3;
+        filter:alpha(opacity=85); /*IE滤镜，透明度50%*/
+        -moz-opacity:0.75; /*Firefox私有，透明度50%*/
+        opacity:0.75;/*others*/
+}
+#apDiv114 {
+	position: absolute;
+	left: 262px;
+	top: 342px;
+	width: 100px;
+	height: 52px;
+	z-index: 4;
+        filter:alpha(opacity=85); /*IE滤镜，透明度50%*/
+        -moz-opacity:0.75; /*Firefox私有，透明度50%*/
+        opacity:0.75;/*others*/
+}
+
+#apDiv115 {
+	position: absolute;
+	left: 40%;
+	top: 15%;
+	width: 35%;
+	height: 73%;
+	z-index: 5;
+        filter:alpha(opacity=85); /*IE滤镜，透明度50%*/
+        -moz-opacity:0.75; /*Firefox私有，透明度50%*/
+        opacity:0.75;/*others*/
+}
+#apDiv116 {
+	position: absolute;
+	left: 121px;
+	top: 284px;
+	width: 170px;
+	height: 20px;
+	z-index: 2;
+        filter:alpha(opacity=85); /*IE滤镜，透明度50%*/
+        -moz-opacity:0.75; /*Firefox私有，透明度50%*/
+        opacity:0.75;/*others*/
+}
+
+#apDiv200 {
+	position: absolute;
+	left: 275px;
+	top: 166px;
+	width: 67px;
+	height: 20px;
+	z-index: 6;
+        filter:alpha(opacity=85); /*IE滤镜，透明度50%*/
+        -moz-opacity:0.75; /*Firefox私有，透明度50%*/
+        opacity:0.75;/*others*/
+}
+#apDiv300 {
+	position: absolute;
+	left: 120px;
+	top: 166px;
+	width: 166px;
+	height: 22px;
+	z-index: 7;
+        filter:alpha(opacity=85); /*IE滤镜，透明度50%*/
+        -moz-opacity:0.75; /*Firefox私有，透明度50%*/
+        opacity:0.75;/*others*/
+}
+
